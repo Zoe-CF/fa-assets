@@ -464,8 +464,8 @@ align-items: center;
 
 .sticky-image-wrapper {
   position: absolute;
-  left: 50%;
-  top: 56%;
+  left: 49.4%;
+  top: 46%;
   width: 60vw;
   height: 70vh;
   transform: translate(-50%, -50%);
