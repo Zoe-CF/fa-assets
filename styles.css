@@ -83,15 +83,18 @@ a {
 }
 
 .app-header {
-  align-items: center;
-  display: flex;
-  position: relative;
-  grid-area: header;
-  justify-content: space-between;
-  /* margin-bottom: 1rem; */
-  padding-top: 1rem;
-  color: var(--colors-primary--500);
-  padding-bottom: 0.8rem;
+align-items: center;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    justify-content: space-between;
+    padding-top: 1rem;
+    color: var(--mainNav-color);
+    background-color: #101010;
+    padding-bottom: 0.8rem;
+    z-index: 50;
 }
 
 .app-header::after {
